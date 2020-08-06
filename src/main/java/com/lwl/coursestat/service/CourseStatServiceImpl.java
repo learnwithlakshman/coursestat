@@ -27,19 +27,18 @@ public class CourseStatServiceImpl implements CourseStatService {
 	}
 
 	@Override
-	public int getStudentCountByQualification(String qualification) {
+	public long getStudentCountByQualification(String qualification) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public int getPlacedStudentCount() {
-		// TODO Auto-generated method stub
-		return 0;
+	public long getPlacedStudentCount() {
+		return studentList.stream().filter(ele->ele.getPstatus().equals("Y")).count();
 	}
 
 	@Override
-	public int getNotPlacedStudentCount() {
+	public long getNotPlacedStudentCount() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
@@ -70,8 +69,7 @@ public class CourseStatServiceImpl implements CourseStatService {
 
 	@Override
 	public List<String> getStudentNames() {
-		// TODO Auto-generated method stub
-		return null;
+		return studentList.stream().map(s->s.getName()).collect(Collectors.toList());
 	}
 
 }

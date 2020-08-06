@@ -6,13 +6,15 @@ import com.lwl.coursestat.domain.Student;
 import com.lwl.coursestat.dto.CountDTO;
 
 public interface CourseStatService {
+	
+	
 	public List<Student> getStudentsByQualification(String qualification);
 
-	public int getStudentCountByQualification(String qualification);
+	public long getStudentCountByQualification(String qualification);
 
-	public int getPlacedStudentCount();
+	public long getPlacedStudentCount();
 
-	public int getNotPlacedStudentCount();
+	public long getNotPlacedStudentCount();
 
 	public CountDTO getPlacedAndNotPlacedCount();
 
@@ -23,4 +25,5 @@ public interface CourseStatService {
 	public List<Student> maxScoreStudent();
 
 	public List<String> getStudentNames();
+
 }

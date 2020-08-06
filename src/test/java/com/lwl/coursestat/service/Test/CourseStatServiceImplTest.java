@@ -29,4 +29,19 @@ public class CourseStatServiceImplTest {
 		List<Student> list = obj.getStudentsByQualification(qualification);
 		assertEquals(0,list.size());
 	}
+	
+	@Test
+	public void getStudentNamesTest() {
+		CourseStatService obj = new CourseStatServiceImpl(fileName);
+		List<String> names = obj.getStudentNames();
+		assertEquals(15, names.size());
+	}
+	
+	@Test
+	public void getPlacedStudentCountTest() {
+		CourseStatService obj = new CourseStatServiceImpl(fileName);
+		long actualCount = obj.getPlacedStudentCount();
+		long expectedCount = 6;
+		assertEquals(expectedCount, actualCount);
+	}
 }
