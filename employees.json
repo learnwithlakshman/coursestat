@@ -1,0 +1,11 @@
+{
+  "empno" : 1002,
+  "ename" : "Tanvi",
+  "address" : {
+    "city" : "Bangalore",
+    "state" : "KA"
+  },
+  "emails" : [ "tanvi.a@gmail.com" ],
+  "workingStatus" : false,
+  "salary" : 85000.0
+}

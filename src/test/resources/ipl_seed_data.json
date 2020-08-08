@@ -1,0 +1,77 @@
+[
+    {
+        "city": "Mumbai, Maharashtra",
+        "coach": "Mahela Jaywardene",
+        "home": "Wankhede Stadium, Mumbai",
+        "name": "Mumbai Indians",
+        "label": "MI",
+        "players":[
+            {
+               "name": "Rohit Sharma (R)",
+               "price": 150000000,
+               "role": "Batsman"
+             },
+             {
+               "name": "Anmolpreet Singh (R)",
+               "price": 8000000,
+               "role": "Bowler"
+             },
+             {
+               "name": "Ankul Roy (R)",
+               "price": 2000000,
+               "role": "Bowler"
+             },
+             {
+               "name": "Sherfane Rutherford (R)",
+               "price": 20000000,
+               "role": "Wicketkeeper"
+             }
+           ]
+       
+    },
+   
+    {
+        "city": "Delhi, NCR",
+        "coach": "Ricky Ponting",
+        "home": "Feroz Shah Kotla Ground",
+        "name": "Delhi Capitals",
+        "label": "DC",
+        "players":[
+    
+            {
+              "name": "Shreyas Iyer (R)",
+              "price": 70000000,
+              "role": "Batsman"
+            },
+            {
+              "name": "Ajinkya Rahane (R)",
+              "price": 52500000,
+              "role": "Wicketkeeper"
+            }
+	]
+	},
+	 {
+        "city": "Kolkata, West Bengal",
+        "coach": "Brendon McCullum",
+        "home": "Eden Gardens",
+        "name": "Kolkata Knight Riders",
+        "label": "KKR",
+        "players":[
+            {
+              "name": "Andre Russell (R)",
+              "price": 85000000,
+              "role": "Batsman"
+            },
+            {
+              "name": "Harry Gurney (R)",
+              "price": 7500000,
+              "role": "Bowler"
+            },
+            {
+              "name": "Kamlesh Nagarkoti (R)",
+              "price": 32000000,
+              "role": "Wicketkeeper"
+            }
+	]
+	}
+]
